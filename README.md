@@ -1,0 +1,1 @@
+# opensuse-sync-packages
