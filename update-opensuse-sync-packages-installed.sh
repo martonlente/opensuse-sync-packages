@@ -1,1 +1,1 @@
-zypper search --installed-only | sed -n 's/^[^|]*| \([^|]*\) |.*$/\1/p' > opensuse-sync-packages-installed.txt
+zypper search --installed-only | sed -n 's/^[^|]*| \([^|]*\) |.*$/\1/p' | sed '1d;s/ *$//' > opensuse-sync-packages-installed.txt
