@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # List packages installed
 zypper search --installed-only | \
 
