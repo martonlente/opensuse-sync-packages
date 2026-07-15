@@ -45,7 +45,7 @@ cd ..
 Then, run the `install-opensuse-sync-packages-installed.sh` script to install the packages listed in the ref machine's branch.
 
 ## Version
-TODO
+0.1.0
 
 ## License
 openSUSE sync packages is licensed under the [Apache 2.0](https://github.com/martonlente/opensuse-sync-packages/blob/main/LICENSE) license.
