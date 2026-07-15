@@ -48,4 +48,4 @@ Then, run the `install-opensuse-sync-packages-installed.sh` script to install th
 TODO
 
 ## License
-TODO
+openSUSE sync packages is licensed under the [Apache 2.0](https://github.com/martonlente/opensuse-sync-packages/blob/main/LICENSE) license.
