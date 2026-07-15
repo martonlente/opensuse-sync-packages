@@ -10,4 +10,4 @@ tail -n +6 | \
 cut -d'|' -f2 | \
 
 # Remove trailing whitespace (process each line as single argument)
-xargs -n1 > opensuse-sync-packages-installed.txt
+xargs -n1 > ../opensuse-sync-packages-installed.txt
