@@ -49,6 +49,8 @@ cd ..
 
 Then, run the `install-opensuse-sync-packages-installed.sh` script to install the packages listed in the ref machine's branch.
 
+This repository is best used for comparision of packages between machines, or to sync packages between machines that are configured for comparable purposes and share similar hardware.
+
 ## Version
 0.1.0
 
