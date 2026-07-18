@@ -1,9 +1,9 @@
 # openSUSE sync packages
 
-openSUSE sync packages provides a simple framework to manage installed packages across multiple openSUSE machines using a Git submodule.
+openSUSE sync packages provides a simple framework to compare and manage installed packages across multiple openSUSE machines using a Git submodule.
 
 ## Description
-I've created the repository to manage and track the installed packages on my openSUSE machines in a simple way. It contains a list of default installed packages on openSUSE Tumbleweed at the time of the commit, and scripts to install from, or update the list of installed packages in a text file.
+I've created the repository to compare, manage and track the installed packages on my openSUSE machines in a simple way. It contains a list of default installed packages on openSUSE Tumbleweed at the time of the commit, and scripts to install from, or update the list of installed packages in a text file.
 
 ## Usage
 
@@ -14,6 +14,11 @@ To use this repository as a Git submodule in your project, run the following com
 
 ```
 git submodule add https://github.com/martonlente/opensuse-sync-packages.git opensuse-sync-packages
+```
+
+and pull the submodule content:
+```
+git submodule update --init
 ```
 
 #### 2. Update the packages list
