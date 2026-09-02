@@ -31,11 +31,13 @@ To update the `opensuse-sync-packages-installed.txt` file with the list of curre
 This will generate or update the `opensuse-sync-packages-installed.txt` file in your project root directory.
 
 #### 3. Install packages from the list
-To install the packages listed in the `opensuse-sync-packages-installed.txt` file, run:
+To install the packages listed in a text file, run:
 
 ```
-./opensuse-sync-packages/install-opensuse-sync-packages-installed.sh
+./opensuse-sync-packages/install-opensuse-sync-packages-installed.sh src=../opensuse-sync-packages-installed.txt
 ```
+
+You can specify the path to the package list file using the `src` flag.
 
 ### Branch management
 - Each machine should have its own branch (e.g., `opensuse-l-p`, `opensuse-l-p-1`, etc.).
@@ -47,7 +49,11 @@ git checkout <ref-machine-branch>
 cd ..
 ```
 
-Then, run the `install-opensuse-sync-packages-installed.sh` script to install the packages listed in the ref machine's branch.
+Then, run the following command to install the packages listed in the ref machine's branch:
+
+```
+./opensuse-sync-packages/install-opensuse-sync-packages-installed.sh src=../opensuse-sync-packages-installed.txt
+```
 
 This repository is best used for comparision of packages between machines, or to sync packages between machines that are configured for comparable purposes and share similar hardware.
 
