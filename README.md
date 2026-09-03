@@ -39,6 +39,12 @@ To install the packages listed in a text file, run:
 
 You can specify the path to the package list file using the `src` flag.
 
+The install script uses `zypper` by default. To install the packages using `flatpak`, pass in the `--is-flatpak` flag:
+
+```
+./opensuse-sync-packages/opensuse-sync-packages-install.sh --is-flatpak src=../opensuse-sync-packages-installed-flatpak.txt
+```
+
 ### Branch management
 - Each machine should have its own branch (e.g., `opensuse-l-p`, `opensuse-l-p-1`, etc.).
 - To sync packages from one machine to another, check out the reference machine's branch first:
