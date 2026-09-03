@@ -64,7 +64,7 @@ Then, run the following command to install the packages listed in the ref machin
 This repository is best used for comparision of packages between machines, or to sync packages between machines that are configured for comparable purposes and share similar hardware.
 
 ## Version
-0.1.0
+0.2.0
 
 ## License
 openSUSE sync packages is licensed under the [Apache 2.0](https://github.com/martonlente/opensuse-sync-packages/blob/main/LICENSE) license.
