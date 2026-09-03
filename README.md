@@ -34,7 +34,7 @@ This will generate or update the `opensuse-sync-packages-installed.txt` file in 
 To install the packages listed in a text file, run:
 
 ```
-./opensuse-sync-packages/install-opensuse-sync-packages-installed.sh src=../opensuse-sync-packages-installed.txt
+./opensuse-sync-packages/opensuse-sync-packages-install.sh src=../opensuse-sync-packages-installed.txt
 ```
 
 You can specify the path to the package list file using the `src` flag.
@@ -52,7 +52,7 @@ cd ..
 Then, run the following command to install the packages listed in the ref machine's branch:
 
 ```
-./opensuse-sync-packages/install-opensuse-sync-packages-installed.sh src=../opensuse-sync-packages-installed.txt
+./opensuse-sync-packages/opensuse-sync-packages-install.sh src=../opensuse-sync-packages-installed.txt
 ```
 
 This repository is best used for comparision of packages between machines, or to sync packages between machines that are configured for comparable purposes and share similar hardware.
