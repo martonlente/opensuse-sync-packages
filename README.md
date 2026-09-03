@@ -25,7 +25,7 @@ git submodule update --init
 To update the `opensuse-sync-packages-installed.txt` file with the list of currently installed packages on your machine, run:
 
 ```
-./opensuse-sync-packages/update-opensuse-sync-packages-installed.sh
+./opensuse-sync-packages/opensuse-sync-packages-update.sh
 ```
 
 This will generate or update the `opensuse-sync-packages-installed.txt` file in your project root directory.
