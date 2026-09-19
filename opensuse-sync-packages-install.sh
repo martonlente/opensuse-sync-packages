@@ -35,8 +35,8 @@ fi
 packages=$(cat "$src")
 
 if [ "$is_flatpak" = true ]; then
-  # Format into a single line and install packages using flatpak
-  echo "$packages" | xargs -I {} flatpak install flathub {} # Flag -I is needed to run install once per package
+  # Install packages using flatpak
+  flatpak install flathub $packages
 else
   # Install packages using zypper
   echo "$packages" | xargs zypper install
